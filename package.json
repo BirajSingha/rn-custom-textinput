@@ -1,6 +1,6 @@
 {
   "name": "rn-custom-textinput",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A highly customizable TextInput component for React Native with extensive styling options and OTP support",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
