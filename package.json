@@ -1,0 +1,61 @@
+{
+  "name": "rn-custom-textinput",
+  "version": "1.0.0",
+  "description": "A highly customizable TextInput component for React Native with extensive styling options and OTP support",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run clean && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "typecheck": "tsc --noEmit",
+    "clean": "if exist lib rmdir /s /q lib"
+  },
+  "keywords": [
+    "react-native",
+    "textinput",
+    "input",
+    "form",
+    "customizable",
+    "styling",
+    "component",
+    "otp",
+    "split-fields",
+    "typescript"
+  ],
+  "author": "Biraj Singha",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-native": ">=0.60.0"
+  },
+  "devDependencies": {
+    "@react-native-community/eslint-config": "^3.2.0",
+    "@types/react": "^18.3.24",
+    "@types/react-native": "^0.72.8",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "eslint": "^8.57.1",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "react": "^18.2.0",
+    "react-native": "^0.72.17",
+    "typescript": "^5.9.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BirajSingha/rn-custom-textinput.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BirajSingha/rn-custom-textinput/issues"
+  },
+  "homepage": "https://github.com/BirajSingha/rn-custom-textinput#readme",
+  "files": [
+    "lib",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
